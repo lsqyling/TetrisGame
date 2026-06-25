@@ -1,0 +1,9 @@
+module TetrisGame
+Main 1.0 Main.qml
+BackgroundEffect 1.0 components/BackgroundEffect.qml
+GameBoard 1.0 components/GameBoard.qml
+GameButton 1.0 components/GameButton.qml
+KeyLabel 1.0 components/KeyLabel.qml
+NextPiecePreview 1.0 components/NextPiecePreview.qml
+ScorePanel 1.0 components/ScorePanel.qml
+GamePage 1.0 pages/GamePage.qml

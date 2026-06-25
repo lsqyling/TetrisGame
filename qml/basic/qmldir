@@ -1,0 +1,2 @@
+module TetrisConfig
+singleton TetrisConfig 1.0 TetrisConfig.qml

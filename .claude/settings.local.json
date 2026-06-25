@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem *)",
+      "WebSearch",
+      "PowerShell(New-Item *)",
+      "PowerShell(Move-Item *)"
+    ],
+    "additionalDirectories": [
+      "D:\\dev\\workspace\\clion\\Qt6QmlTemplateProj"
+    ]
+  }
+}
