@@ -4,6 +4,10 @@
 # idea
 .idea/
 
+# claude
+.claude
+
+
 # CMake
 cmake-build-*/
 build/
