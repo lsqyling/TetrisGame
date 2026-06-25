@@ -1,0 +1,24 @@
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\11B010D69EB086FD7B0D5A805C631349\TETRISCONFIGPLUGIN_AUTOGEN.RULE
+setlocal
+cd D:\dev\workspace\yidaoyun\TetrisGame\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\dev\tools\cmake\bin\cmake.exe -E cmake_autogen D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/TetrisConfigplugin_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\CMAKELISTS.TXT
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -SD:/dev/workspace/yidaoyun/TetrisGame -BD:/dev/workspace/yidaoyun/TetrisGame/build --check-stamp-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

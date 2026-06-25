@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\src\GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\src\AudioEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\tetrisgame_qmltyperegistrations.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\qrc_qmake_TetrisGame.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qmlcache_loader.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\Main_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\BackgroundEffect_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\GameBoard_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\GameButton_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\KeyLabel_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\NextPiecePreview_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\components\ScorePanel_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.rcc\qmlcache\TetrisGame_qml\pages\GamePage_qml.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\qrc_TetrisGame_raw_qml_0.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\qrc_TetrisGame_raw_qml_0_extra_qmldirs.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\src\GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\src\AudioEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\ddf_TetrisGame.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\qmake_TetrisGame.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame\qmldir">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\TetrisGame_raw_qml_0.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\TetrisGame_raw_qml_0_extra_qmldirs.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame\qml\qmldir">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame\qml\components\qmldir">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisGame\qml\pages\qmldir">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\meta_types\qt6tetrisconfig_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\meta_types\qt6tetrisconfigplugin_init_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\95a38058ba31d9c112c8d9c12579d69c\qt6tetrisgame_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\0012de4f2b40731cd4e2a3bebaf6b888\tetrisgame_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\d9f4a2e6ce757ac9797d5a7debb92e81\qrc_qmake_TetrisGame.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\7e462149a64047e07c6a04f26e9cec78\TetrisGame_qmlcache_loader.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\0884c6f75c9a5c54949dba635013411d\Main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\BackgroundEffect_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\GameBoard_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\GameButton_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\KeyLabel_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\NextPiecePreview_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\ScorePanel_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\00e84659d79b1b4e2acd044d7fc1eb9f\GamePage_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\d9f4a2e6ce757ac9797d5a7debb92e81\qrc_TetrisGame_raw_qml_0.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\d9f4a2e6ce757ac9797d5a7debb92e81\qrc_TetrisGame_raw_qml_0_extra_qmldirs.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\build\meta_types\qt6tetrisgame_metatypes.json.gen">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\Main.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\BackgroundEffect.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\GameBoard.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\GameButton.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\KeyLabel.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\NextPiecePreview.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\components\ScorePanel.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\qml\pages\GamePage.qml">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6core_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6qml_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6network_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6quick_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6gui_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6qmlmeta_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6qmlmodels_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6qmlworkerscript_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6opengl_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\dev\tools\Qt\6.8.3\msvc2022_64\metatypes\qt6multimedia_metatypes.json">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9EA28F69-0B22-39E8-A9C4-EA03D888CF55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73FD9A13-BB26-3790-BBED-307D4C9E7EC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FDBEEEB-670A-3892-B18D-94C9A3C34F82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{962D4CF3-842A-301E-9D82-43007EEEC0AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

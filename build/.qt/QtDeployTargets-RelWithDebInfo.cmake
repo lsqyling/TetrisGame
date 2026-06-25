@@ -1,0 +1,7 @@
+set(__QT_DEPLOY_TARGET_TetrisGame_FILE D:/dev/workspace/yidaoyun/TetrisGame/build/RelWithDebInfo/TetrisGame.exe)
+set(__QT_DEPLOY_TARGET_TetrisGame_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_TetrisGame_RUNTIME_DLLS D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Quick.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Multimedia.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6QmlMeta.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6QmlWorkerScript.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6QmlModels.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6OpenGL.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Gui.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Qml.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Network.dll;D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_TetrisConfig_FILE D:/dev/workspace/yidaoyun/TetrisGame/build/RelWithDebInfo/TetrisConfig.lib)
+set(__QT_DEPLOY_TARGET_TetrisConfig_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_TetrisConfigplugin_FILE D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisConfig/RelWithDebInfo/TetrisConfigplugin.lib)
+set(__QT_DEPLOY_TARGET_TetrisConfigplugin_TYPE STATIC_LIBRARY)

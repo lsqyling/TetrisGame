@@ -1,0 +1,12 @@
+module TetrisGame
+typeinfo TetrisGame.qmltypes
+prefer :/qt/qml/TetrisGame/
+Main 1.0 qml/Main.qml
+BackgroundEffect 1.0 qml/components/BackgroundEffect.qml
+GameBoard 1.0 qml/components/GameBoard.qml
+GameButton 1.0 qml/components/GameButton.qml
+KeyLabel 1.0 qml/components/KeyLabel.qml
+NextPiecePreview 1.0 qml/components/NextPiecePreview.qml
+ScorePanel 1.0 qml/components/ScorePanel.qml
+GamePage 1.0 qml/pages/GamePage.qml
+

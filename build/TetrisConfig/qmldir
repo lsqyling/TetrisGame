@@ -1,0 +1,8 @@
+module TetrisConfig
+linktarget TetrisConfigplugin
+optional plugin TetrisConfigplugin
+classname TetrisConfigPlugin
+typeinfo TetrisConfig.qmltypes
+prefer :/qt/qml/TetrisConfig/
+singleton TetrisConfig 254.0 qml/basic/TetrisConfig.qml
+

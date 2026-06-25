@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/TetrisConfig/">
+    <file alias="qml/basic/TetrisConfig.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/basic/TetrisConfig.qml</file>
+  </qresource>
+</RCC>
+

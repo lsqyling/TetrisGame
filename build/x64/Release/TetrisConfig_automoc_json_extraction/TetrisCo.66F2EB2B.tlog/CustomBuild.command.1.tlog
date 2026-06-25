@@ -1,0 +1,20 @@
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\11B010D69EB086FD7B0D5A805C631349\TETRISCONFIG_AUTOMOC_JSON_EXTRACTION.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/TetrisConfig_autogen.dir/ParseCache_Release.txt --cmake-autogen-info-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/TetrisConfig_autogen.dir/AutogenInfo.json --output-file-path D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/TetrisConfig_json_file_list.txt --timestamp-file-path D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/TetrisConfig_json_file_list.txt.timestamp --cmake-autogen-include-dir-path D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisConfig_autogen/include_Release --cmake-multi-config
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\CMAKELISTS.TXT
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -SD:/dev/workspace/yidaoyun/TetrisGame -BD:/dev/workspace/yidaoyun/TetrisGame/build --check-stamp-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

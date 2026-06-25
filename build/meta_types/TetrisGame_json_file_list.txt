@@ -1,0 +1,2 @@
+D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame_autogen/include_Release/UVLADIE3JM/moc_AudioEngine.cpp.json
+D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame_autogen/include_Release/UVLADIE3JM/moc_GameEngine.cpp.json

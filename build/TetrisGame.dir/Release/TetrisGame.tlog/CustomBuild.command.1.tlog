@@ -1,0 +1,172 @@
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\95A38058BA31D9C112C8D9C12579D69C\QT6TETRISGAME_METATYPES.JSON.GEN.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\moc.exe -o D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisgame_metatypes.json.gen --collect-json @D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/TetrisGame_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+D:\dev\tools\cmake\bin\cmake.exe -E copy_if_different D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisgame_metatypes.json.gen D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisgame_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\0012DE4F2B40731CD4E2A3BEBAF6B888\TETRISGAME_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmltyperegistrar.exe --generate-qmltypes=D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/TetrisGame.qmltypes --import-name=TetrisGame --major-version=1 --minor-version=0 @D:/dev/workspace/yidaoyun/TetrisGame/build/qmltypes/TetrisGame_foreign_types.txt -o D:/dev/workspace/yidaoyun/TetrisGame/build/tetrisgame_qmltyperegistrations.cpp D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisgame_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+D:\dev\tools\cmake\bin\cmake.exe -E touch D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/qmltypes/TetrisGame.qmltypes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\D9F4A2E6CE757AC9797D5A7DEBB92E81\QRC_QMAKE_TETRISGAME.CPP.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\rcc.exe --output D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qrc_qmake_TetrisGame.cpp --name qmake_TetrisGame D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\7E462149A64047E07C6A04F26E9CEC78\TETRISGAME_QMLCACHE_LOADER.CPP.RULE
+setlocal
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --resource-name qmlcache_TetrisGame -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qmlcache_loader.cpp @D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml_loader_file_list.rsp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\0884C6F75C9A5C54949DBA635013411D\MAIN_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/Main.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/Main_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/Main.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\BACKGROUNDEFFECT_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/BackgroundEffect.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/BackgroundEffect_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/BackgroundEffect.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\GAMEBOARD_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/GameBoard.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/GameBoard_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/GameBoard.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\GAMEBUTTON_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/GameButton.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/GameButton_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/GameButton.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\KEYLABEL_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/KeyLabel.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/KeyLabel_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/KeyLabel.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\NEXTPIECEPREVIEW_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/NextPiecePreview.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/NextPiecePreview_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/NextPiecePreview.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\C681282B8C97D9E97E47658427AF43DE\SCOREPANEL_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/components/ScorePanel.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/components/ScorePanel_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/components/ScorePanel.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\00E84659D79B1B4E2ACD044D7FC1EB9F\GAMEPAGE_QML.CPP.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -E make_directory D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/pages
+if %errorlevel% neq 0 goto :cmEnd
+call .qt\bin\qt_setup_tool_path.bat D:/dev/tools/Qt/6.8.3/msvc2022_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/TetrisGame/qml/pages/GamePage.qml -I D:/dev/workspace/yidaoyun/TetrisGame/build -I D:/dev/tools/Qt/6.8.3/msvc2022_64/qml -i D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qmldir --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisGame.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --resource D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=TetrisGame(TetrisGame) -o D:/dev/workspace/yidaoyun/TetrisGame/build/.rcc/qmlcache/TetrisGame_qml/pages/GamePage_qml.cpp D:/dev/workspace/yidaoyun/TetrisGame/qml/pages/GamePage.qml
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\D9F4A2E6CE757AC9797D5A7DEBB92E81\QRC_TETRISGAME_RAW_QML_0.CPP.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\rcc.exe --output D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qrc_TetrisGame_raw_qml_0.cpp --name TetrisGame_raw_qml_0 D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\D9F4A2E6CE757AC9797D5A7DEBB92E81\QRC_TETRISGAME_RAW_QML_0_EXTRA_QMLDIRS.CPP.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\rcc.exe --output D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qrc_TetrisGame_raw_qml_0_extra_qmldirs.cpp --name TetrisGame_raw_qml_0_extra_qmldirs D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisGame_raw_qml_0_extra_qmldirs.qrc --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\CMAKELISTS.TXT
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -SD:/dev/workspace/yidaoyun/TetrisGame -BD:/dev/workspace/yidaoyun/TetrisGame/build --check-stamp-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

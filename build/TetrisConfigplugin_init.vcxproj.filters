@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_init_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_init.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_init_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_init_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_init_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\dev\workspace\yidaoyun\TetrisGame\build\ddf_TetrisConfigplugin_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\95a38058ba31d9c112c8d9c12579d69c\qt6tetrisconfigplugin_init_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\build\meta_types\qt6tetrisconfigplugin_init_metatypes.json.gen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9EA28F69-0B22-39E8-A9C4-EA03D888CF55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73FD9A13-BB26-3790-BBED-307D4C9E7EC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FDBEEEB-670A-3892-B18D-94C9A3C34F82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{962D4CF3-842A-301E-9D82-43007EEEC0AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

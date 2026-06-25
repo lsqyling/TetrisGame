@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfig_copy_qml</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfig_copy_res</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfig_autogen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfig_automoc_json_extraction</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfigplugin_autogen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfigplugin_init_autogen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisConfigplugin_init_automoc_json_extraction</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisGame_copy_qml</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisGame_copy_res</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisGame_qmlimportscan</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisGame_autogen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\TetrisGame_automoc_json_extraction</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\Release\TetrisGame.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\dev\workspace\yidaoyun\TetrisGame\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

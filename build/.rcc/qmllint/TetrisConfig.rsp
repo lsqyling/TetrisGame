@@ -1,0 +1,12 @@
+--bare
+-I
+D:/dev/workspace/yidaoyun/TetrisGame/build
+-I
+D:/dev/tools/Qt/6.8.3/msvc2022_64/qml
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisConfig.qrc
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisConfig_raw_qml_0.qrc
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisConfig_raw_qml_0_extra_qmldirs.qrc
+D:/dev/workspace/yidaoyun/TetrisGame/qml/basic/TetrisConfig.qml

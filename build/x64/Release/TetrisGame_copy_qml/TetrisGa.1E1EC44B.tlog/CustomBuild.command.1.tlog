@@ -1,0 +1,28 @@
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\0FCD97E085FB123B57A62EB6BAE288B7\TETRISGAME_QML.TXT.RULE
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -DFILES_INFO_PATH=D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/TetrisGame_qml.cmake -P D:/dev/tools/Qt/6.8.3/msvc2022_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\11B010D69EB086FD7B0D5A805C631349\TETRISGAME_COPY_QML.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\CMAKELISTS.TXT
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -SD:/dev/workspace/yidaoyun/TetrisGame -BD:/dev/workspace/yidaoyun/TetrisGame/build --check-stamp-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

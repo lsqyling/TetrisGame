@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/TetrisGame/">
+    <file alias="qml/Main.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/Main.qml</file>
+    <file alias="qml/components/BackgroundEffect.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/BackgroundEffect.qml</file>
+    <file alias="qml/components/GameBoard.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/GameBoard.qml</file>
+    <file alias="qml/components/GameButton.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/GameButton.qml</file>
+    <file alias="qml/components/KeyLabel.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/KeyLabel.qml</file>
+    <file alias="qml/components/NextPiecePreview.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/NextPiecePreview.qml</file>
+    <file alias="qml/components/ScorePanel.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/components/ScorePanel.qml</file>
+    <file alias="qml/pages/GamePage.qml">D:/dev/workspace/yidaoyun/TetrisGame/qml/pages/GamePage.qml</file>
+  </qresource>
+</RCC>
+

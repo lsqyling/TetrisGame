@@ -1,0 +1,7 @@
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/qmake_TetrisConfig.qrc
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisConfig_raw_qml_0.qrc
+--resource
+D:/dev/workspace/yidaoyun/TetrisGame/build/.qt/rcc/TetrisConfig_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/TetrisConfig/qml/basic/TetrisConfig.qml

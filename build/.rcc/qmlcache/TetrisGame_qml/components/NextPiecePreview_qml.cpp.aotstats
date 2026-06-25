@@ -1,0 +1,68 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 14,
+                        "durationMicroseconds": 919,
+                        "errorMessage": "Cannot access value for name GameEngine",
+                        "functionName": "onPaint",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "drawBlock",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 18,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "Cannot access value for name GameEngine",
+                        "functionName": "running",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 22,
+                        "durationMicroseconds": 310,
+                        "errorMessage": "",
+                        "functionName": "onTriggered",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "Cannot access value for name GameEngine",
+                        "functionName": "target",
+                        "line": 86
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 9,
+                        "durationMicroseconds": 153,
+                        "errorMessage": "",
+                        "functionName": "onStateChanged",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 160,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 91
+                    }
+                ],
+                "filepath": "D:/dev/workspace/yidaoyun/TetrisGame/qml/components/NextPiecePreview.qml"
+            }
+        ],
+        "moduleId": "TetrisGame(TetrisGame)"
+    }
+]

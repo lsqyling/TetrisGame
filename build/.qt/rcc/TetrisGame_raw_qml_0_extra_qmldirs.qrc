@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/TetrisGame/">
+    <file alias="qml/qmldir">D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qml/qmldir</file>
+    <file alias="qml/components/qmldir">D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qml/components/qmldir</file>
+    <file alias="qml/pages/qmldir">D:/dev/workspace/yidaoyun/TetrisGame/build/TetrisGame/qml/pages/qmldir</file>
+  </qresource>
+</RCC>
+

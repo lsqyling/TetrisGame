@@ -5,12 +5,12 @@
 .idea/
 
 # claude
-.claude
+.claude/
 
 
 # CMake
 cmake-build-*/
-build/
+
 
 # qtcreator
 .qtcreator

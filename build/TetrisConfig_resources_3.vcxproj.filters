@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\.qt\rcc\qrc_TetrisConfig_raw_qml_0_extra_qmldirs_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FDBEEEB-670A-3892-B18D-94C9A3C34F82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\BUILD\CMAKEFILES\95A38058BA31D9C112C8D9C12579D69C\QT6TETRISCONFIGPLUGIN_INIT_METATYPES.JSON.GEN.RULE
+setlocal
+D:\dev\tools\Qt\6.8.3\msvc2022_64\bin\moc.exe -o D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisconfigplugin_init_metatypes.json.gen --collect-json @D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/TetrisConfigplugin_init_json_file_list.txt
+if %errorlevel% neq 0 goto :cmEnd
+D:\dev\tools\cmake\bin\cmake.exe -E copy_if_different D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisconfigplugin_init_metatypes.json.gen D:/dev/workspace/yidaoyun/TetrisGame/build/meta_types/qt6tetrisconfigplugin_init_metatypes.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WORKSPACE\YIDAOYUN\TETRISGAME\CMAKELISTS.TXT
+setlocal
+D:\dev\tools\cmake\bin\cmake.exe -SD:/dev/workspace/yidaoyun/TetrisGame -BD:/dev/workspace/yidaoyun/TetrisGame/build --check-stamp-file D:/dev/workspace/yidaoyun/TetrisGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

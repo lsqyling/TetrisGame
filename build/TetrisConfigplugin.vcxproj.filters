@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_TetrisConfigPlugin.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\dev\workspace\yidaoyun\TetrisGame\build\TetrisConfigplugin_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3FDBEEEB-670A-3892-B18D-94C9A3C34F82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{962D4CF3-842A-301E-9D82-43007EEEC0AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

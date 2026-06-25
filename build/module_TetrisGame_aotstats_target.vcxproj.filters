@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\0884c6f75c9a5c54949dba635013411d\Main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\BackgroundEffect_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\GameBoard_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\GameButton_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\KeyLabel_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\NextPiecePreview_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\c681282b8c97d9e97e47658427af43de\ScorePanel_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\00e84659d79b1b4e2acd044d7fc1eb9f\GamePage_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\7e462149a64047e07c6a04f26e9cec78\module_TetrisGame.aotstats.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\11b010d69eb086fd7b0d5a805c631349\module_TetrisGame_aotstats_target.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\dev\workspace\yidaoyun\TetrisGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\dev\workspace\yidaoyun\TetrisGame\build\CMakeFiles\module_TetrisGame_aotstats_target" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9EA28F69-0B22-39E8-A9C4-EA03D888CF55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
